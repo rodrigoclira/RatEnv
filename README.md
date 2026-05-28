@@ -1,6 +1,6 @@
 # Criação do RatEnv
 
-Crie o ambiente `RatEnv` utilizando Gymnasium as classes e funções da Gymnasium. 
+Crie o ambiente `RatEnv` em um notebook utilizando Gymnasium as classes e funções da Gymnasium. 
 No RatEnv, um rato (agente) precisa alcançar o objetivo, definido na posição (1,3) do grid e obter a recompensa máxima.
 
 <img width="407" height="254" alt="image" src="https://github.com/user-attachments/assets/4c163ca7-b49d-41e1-b597-09f01aab7acc" />
@@ -63,7 +63,7 @@ from gymnasium.utils.env_checker import check_env
 
 check_env(ratEnv)
 ```
-- Utilizando o código das funções `run_episode` e `make_scripted` do arquivo gym_util.py, valide o resultado das políticas abaixo.
+- Utilizando o código das funções `run_episode` e `make_scripted` do arquivo gym_util.py, valide os resultados das políticas abaixo.
 
 > As funções `run_episode` e `make_scripted` foram usadas na aula sobre wrappers. 
 
