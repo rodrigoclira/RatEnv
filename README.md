@@ -51,7 +51,9 @@ R(5) = +10
 
 ## O que é esperado? 
 
-Um ambiente funcional com os métodos `step`, `reset`, `render` e `construtor`. Além desses, métodos auxiliares podem ser necessários. 
+Um ambiente funcional com os métodos `step`, `reset`, `render` e `construtor` a ser definido no arquivo `RatEnv.ipynb`. 
+Além desses, métodos auxiliares podem ser necessários. 
+
 > Utilize emojis no método render https://www.invertexto.com/emojis-para-copiar
 
 
