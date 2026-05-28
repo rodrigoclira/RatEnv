@@ -18,7 +18,7 @@ Linha 0, coluna 1: 1
 Linha 1, coluna 2: 5
 ```
 ## Ações 
-A ação é definida na faixa {0, 3} indicando qual a direção que será tomada pelo agente
+A ação é definida na faixa {0, 3} indicando qual a direção que será tomada pelo agente (similar ao FrozenLake).
 
 ``` 
 0: Mover para a esquerda
@@ -38,7 +38,7 @@ R(3) = 0
 R(4) = -10
 R(5) = +10
 ```
-## Truncated e Estados terminais
+## Truncated e estados terminais
 
 - Os estados 5 e 4 são terminais no ambiente.
 - Após a realização de 10 ações, o episódio será interrompido (truncated = True)
