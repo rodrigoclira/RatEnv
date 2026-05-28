@@ -38,8 +38,16 @@ R(3) = 0
 R(4) = -10
 R(5) = +10
 ```
+## Truncated e Estados terminais
 
+- Os estados 5 e 4 são terminais no ambiente.
+- Após a realização de 10 ações, o episódio será interrompido (truncated = True)
+
+## Visão geral do ambiente 
 <img width="618" height="111" alt="image" src="https://github.com/user-attachments/assets/d95398af-d6ff-48d6-ba48-ee2f0ef214c2" />
+
+
+------
 
 ## O que é esperado? 
 
@@ -54,5 +62,14 @@ Um ambiente funcional com os métodos `step`, `reset`, `render` e `construtor`. 
 from gymnasium.utils.env_checker import check_env
 
 check_env(ratEnv)
+```
+- Utilizando o código das funções `run_episode` e `make_scripted` do arquivo gym_util.py, valide o resultado das políticas abaixo.
+
+> As funções `run_episode` e `make_scripted` foram usadas na aula sobre wrappers. 
+
+```python
+WORST_PATH = [1, 2] # recompensa total acumulada -10
+OPTIMAL_PATH  = [2, 2, 1] # recompensa total acumulada +11
+SUB_OPTIMAL_PATH = [2, 1] # recompensa total acumulada -9
 ```
 
